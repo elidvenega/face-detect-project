@@ -130,7 +130,7 @@ class App extends Component {
                 name={this.state.user.name}
                 entries={this.state.user.entries}
               />
-              <h1>Test</h1>
+              <h1 className='white'>Test</h1>
               <ImageLinkForm
                 onInputChange={this.onInputChange}
                 onButtonSubmit={this.onButtonSubmit}
